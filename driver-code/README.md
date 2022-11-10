@@ -267,7 +267,7 @@ Enums have the following format:
 Where:
 - <i>name</i> is the name of the dimension
 - <i>values</i> is a list of the values
-- <i>cardinality_distribution</i> informs the cardinality selection of the generated values (omit if cardinality is zero)
+- <i>cardinality_distribution</i> informs the cardinality selection of the generated values
 - <i>percent_nulls</i> a value in the range of 0.0 and 100.0 (inclusive) indicating the stochastic frequency for generating null values (optional - the default value is 0.0 if omitted)
 
 
@@ -413,7 +413,7 @@ See the previous section on _Distribution descriptor objects_ for the syntax.
 
 ### "states": []
 
-The _states_ list is a list of state object.
+The _states_ list is a list of state objects.
 These state objects describe each of the states in a probabilistic state machine.
 The first state in the list is the initial state in the state machine, or in other words, the state that the machine enters initially.
 
